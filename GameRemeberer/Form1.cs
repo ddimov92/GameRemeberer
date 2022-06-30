@@ -49,7 +49,7 @@ namespace GameRemeberer
                 PictureBox image = new PictureBox();
                 try
                 {
-                    image.Image = Image.FromFile($@"{Environment.CurrentDirectory}\Images\{i + 1}.jpg");
+                    image.Image = Image.FromFile($@"{Environment.CurrentDirectory}\Files\{i + 1}.jpg");
                 }
                 catch (Exception)
                 {
