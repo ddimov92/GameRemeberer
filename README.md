@@ -8,4 +8,4 @@ This Winforms app serves the sole purpose of keeping track of biggest-hits games
 
 I used webscraping to get all of the information from the Metacritic site and save it all to a CSV file. The images for each game were downloaded in a separate folder. This was all done via a different app I created, which I can share if need be.
 
-I use CSVHelper for the CSV file manipulation/reading and Dapper for all the SQL queries. You can view that in the two classes DatabaseHandler and CSVHandler. The CSV file is also included in the Files folder. All of the images are in the bin/Debug folder.
+I use CSVHelper for the CSV file manipulation/reading and Dapper for all the SQL queries. You can view that in the two classes DatabaseHandler and CSVHandler. The CSV file is also included in the Files folder. Due to the limitations of Github I am only including 500 images in the repository (Files folder).
